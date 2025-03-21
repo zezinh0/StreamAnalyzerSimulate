@@ -1,10 +1,14 @@
-# StreamAnalyzerSumulate
+# StreamAnalyzerSimulate ----- READ -----
 
 A web-based interface for the YouTube Stream Analyzer application that provides real-time sentiment analysis of YouTube live stream comments.
+
+**Link:** [StreamAnalyzer](https://streamanalyzer-fyc2aafqgyavedc2.spaincentral-01.azurewebsites.net/)
 
 ## Project Overview
 
 StreamAnalyzer.WEB serves as the frontend for the Stream Analyzer system, offering a user-friendly interface to analyze YouTube live stream comments in real-time. The application connects to a backend API service that processes YouTube comments and returns sentiment analysis results through a streaming connection.
+
+**Note:** The AI prediction of comments is not completed yet. Currently, the API introduces a 2-second delay to simulate the AI prediction.
 
 ### Key Features
 
